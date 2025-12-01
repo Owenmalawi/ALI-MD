@@ -5,7 +5,7 @@ const fs = require('fs'),
 global.session = "https://ali-pair-xode.onrender.com";
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "ALI-MD~hjVKWGwbZ+4wBpX3s4gIePwCUQlDafwcAAA==", // Add sess Id here especially when deploying on panels else use app.json and .env file...
+    SESSION_ID: process.env.SESSION_ID || "ALI-MD~XYNzxYQJ#eJ4WdB8tUz03kk7j729e6JkKAM7sBuPwwbYwpZ6K2kY", // Add sess Id here especially when deploying on panels else use app.json and .env file...
     SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", // Add multiple numbers with country codes without (+), separated by comma
     ANTI_DELETE: process.env.ANTI_DELETE || "true", // ✅ only ONE, default = true
     AUTO_STATUS_VIEWS: process.env.AUTO_STATUS_VIEWS || "true",
@@ -14,17 +14,17 @@ module.exports = {
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
     STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "✅️ Status Viewed by ALI-MD", // Custom message
     MODE: process.env.MODE || "public", // Options: private, public, inbox, groups
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923199471258", // Only 1 owner number here, others add to sudo numbers
-    OWNER_NAME: process.env.OWNER_NAME || "𓂃ᷱ᪳𝐀ɭīī 𝐈𝐍𝅦𝐗īī𝐃𝐄^᪲᪲᪲輪", // Custom name
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "265883222230", // Only 1 owner number here, others add to sudo numbers
+    OWNER_NAME: process.env.OWNER_NAME || "TROYMEX", // Custom name
     PACK_AUTHOR: process.env.PACK_AUTHOR || "", // Custom
     PACK_NAME: process.env.PACK_NAME || "",
     HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
     HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "", // Custom
     PREFIX: process.env.PREFIX || ".",
     VERSION: process.env.VERSION || "7.0.0",
-    ANTI_LINK: process.env.ANTI_LINK || "false", // true = kick, delete = delete, warn = warn
+    ANTI_LINK: process.env.ANTI_LINK || "true", // true = kick, delete = delete, warn = warn
     ANTI_CALL: process.env.ANTI_CALL || "false",
-    ANTIBAD: process.env.ANTIBAD || "false",
+    ANTIBAD: process.env.ANTIBAD || "true",
     BAD_WORDS: process.env.BAD_WORDS || "fuck, pussy, anus, idiot", // Will be deleted if ANTIBAD is true
     ANTI_CALL_MSG: process.env.ANTI_CALL_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -34,7 +34,7 @@ module.exports = {
     AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
     AUTO_BIO: process.env.AUTO_BIO || "false",
     AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "ALI MD ALIVE",
-    WELCOME: process.env.WELCOME || "false",
+    WELCOME: process.env.WELCOME || "true",
     AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false", // true = bluetick all messages, commands = bluetick commands only
     AUTO_BLOCK: process.env.AUTO_BLOCK || "333,799", // Multiple country codes separated by comma
     PRESENCE: process.env.PRESENCE || "null", // typing, recording, online, null
